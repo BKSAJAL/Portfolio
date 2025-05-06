@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/med-logo.png" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Sajal Bansal</title>
+  </head>
+  <body>
+    <header
+      class="bg-black sm:bg-transparent flex flex-col gap-4 py-4 justify-around items-center sticky t-0 sm:fixed w-full z-10 backdrop-blur-3xl lg:flex-row lg:gap-0"
+    >
+      <img class="hover:scale-120" src="/assets/med-logo.png" width="50px" />
+      <div class="flex">
+        <img
+          class="bg-red-700 rounded-l-lg p-1"
+          src="/assets/moon.svg"
+          alt="moon-img"
+          width="35px"
+        />
+        <img
+          class="bg-white rounded-r-lg p-1"
+          src="/assets/sun.svg"
+          alt="sun-img"
+          width="35px"
+        />
+      </div>
+      <div class="flex flex-wrap text-white gap-1 px-4 lg:px-0">
+        <a class="p-1.5 rounded-full navlinks" href="#home">Home</a>
+        <a class="p-1.5 rounded-full navlinks" href="#about">About</a>
+        <a class="p-1.5 rounded-full navlinks" href="#skills">Skills</a>
+        <a class="p-1.5 rounded-full navlinks" href="#certifications"
+          >Certifications</a
+        >
+        <a class="p-1.5 rounded-full navlinks" href="#projects">Projects</a>
+        <a class="p-1.5 rounded-full navlinks" href="#contact">Contact</a>
+      </div>
+
+      <!-- <div class="bg-white h-0.5 w-full block"></div> -->
+    </header>
+
+    <!-- Home  -->
+    <section
+      class="bg-no-repeat bg-cover bg-bottom bg-[url(/assets/coding-img.png)]"
+    >
+      <div
+        class="flex flex-col-reverse gap-10 justify-center items-center h-screen backdrop-blur-sm md:flex-row md:justify-around"
+        id="home"
+      >
+        <div class="text-white">
+          <h1 class="text-4xl mb-2 font-bold">Sajal Bansal</h1>
+          <h2 class="text-2xl mb-1 font-bold">Software Engineer</h2>
+          <h6 class="text-xs mb-4">Writing spells that machines understand.</h6>
+          <div class="flex gap-2 mb-2">
+            <span
+              class="rounded-full p-1 bg-white hover:cursor-pointer hover:animate-spin"
+            >
+              <img
+                class="bg-white rounded-full"
+                src="../assets/linkedin-icon.svg"
+                alt="linekdin_icon"
+                width="30px"
+              />
+            </span>
+            <span
+              class="rounded-full p-1 bg-white hover:cursor-pointer hover:animate-spin"
+            >
+              <img
+                src="../assets/facebook-icon.svg"
+                alt="facebook_icon"
+                width="30px"
+              />
+            </span>
+            <span
+              class="rounded-full p-1 bg-white hover:cursor-pointer hover:animate-spin"
+            >
+              <img
+                src="../assets/instagram-icon.svg"
+                alt="insta_icon"
+                width="30px"
+              />
+            </span>
+            <span
+              class="rounded-full p-1 bg-white hover:cursor-pointer hover:animate-spin"
+            >
+              <img src="../assets/x-icon.svg" alt="x_icon" width="30px" />
+            </span>
+          </div>
+          <button class="button">Download CV</button>
+        </div>
+        <div>
+          <img
+            class="rounded-4xl floating-top-img z-0"
+            src="/assets/self.jpeg"
+            alt="self-img"
+            width="250px"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section
+      class="bg-no-repeat bg-cover bg-top bg-[url(/assets/multiscreen-img.avif)]"
+    >
+      <div
+        id="about"
+        class="flex justify-center items-center gap-5 py-30 text-white backdrop-blur-sm flex-col lg:flex-row lg:px-4"
+      >
+        <img
+          class="rounded-4xl floating-top-img"
+          src="../assets/self-2.jpg"
+          width="300px"
+        />
+        <div class="lg:w-4xl w-xs sm:w-sm">
+          <h1 class="text-4xl mb-1 font-bold">
+            About <span class="text-red-700">Me</span>
+          </h1>
+          <p class="text-lg mb-2 font-bold">
+            Stacking code like cash—one line closer to freedom.
+          </p>
+          <p class="mb-4">
+            I'm passionate about using code to create engaging digital
+            experiences. As a Frontend Developer, I'm always working to combine
+            design and technology, turning beautiful designs into interactive
+            websites. I work with Reactjs, Nextjs, Typescript, HTML, CSS, and
+            JavaScript in the browser to make websites not only work well but
+            also look amazing and user-friendly. I'm driven by innovation. I
+            keep up with the latest web technologies and trends, looking for new
+            ways to make my work even better. Whether it's making designs that
+            work on different devices, improving website speed, or making sure
+            everyone can use the websites I create. I thrive on teamwork.
+            Collaborating closely with designers, I bring visions to life, and
+            alongside backend developers, I ensure a seamless end-to-end
+            experience. Apart from my passion for technology, I find tranquility
+            through meditation and actively engage in social service. These
+            endeavors further enrich my perspective, contributing to my growth
+            both personally and professionally.
+          </p>
+
+          <p class="font-bold mb-4">
+            I find tranquility through meditation and actively engage in social
+            service. These endeavors further enrich my perspective, contributing
+            to my growth both personally and professionally.
+          </p>
+          <button class="button-two">Read More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section
+      class="bg-no-repeat bg-cover bg-center bg-[url(/assets/technologies-img.webp)]"
+    >
+      <div
+        id="skills"
+        class="flex flex-col items-center text-white backdrop-blur-sm py-20"
+      >
+        <h1 class="text-4xl font-bold pb-20 text-center">
+          My<span class="text-red-700"> Skills</span>
+        </h1>
+        <!-- <div class="flex justify-around"> -->
+        <!-- Progress bar -->
+        <div class="bg-black w-xs rounded-2xl p-8 sm:w-xl">
+          <div class="mb-1 text-base font-medium dark:text-white">
+            HTML / CSS
+          </div>
+          <div class="w-full bg-gray-200 rounded-full mb-4 dark:bg-gray-700">
+            <div
+              class="bg-red-700 text-xs font-medium text-center p-0.5 leading-none rounded-full progress-animate"
+              style="width: 95%"
+            >
+              95%
+            </div>
+          </div>
+          <div class="mb-1 text-base font-medium dark:text-white">
+            Javascript
+          </div>
+          <div class="w-full bg-gray-200 rounded-full mb-4 dark:bg-gray-700">
+            <div
+              class="bg-red-700 text-xs font-medium text-center p-0.5 leading-none rounded-full progress-animate"
+              style="width: 90%"
+            >
+              90%
+            </div>
+          </div>
+          <div class="mb-1 text-base font-medium dark:text-white">
+            Typescript
+          </div>
+          <div class="w-full bg-gray-200 rounded-full mb-4 dark:bg-gray-700">
+            <div
+              class="bg-red-700 text-xs font-medium text-center p-0.5 leading-none rounded-full progress-animate"
+              style="width: 88%"
+            >
+              88%
+            </div>
+          </div>
+          <div class="mb-1 text-base font-medium dark:text-white">React.js</div>
+          <div class="w-full bg-gray-200 rounded-full mb-4 dark:bg-gray-700">
+            <div
+              class="bg-red-700 text-xs font-medium text-center p-0.5 leading-none rounded-full progress-animate"
+              style="width: 92%"
+            >
+              92%
+            </div>
+          </div>
+          <div class="mb-1 text-base font-medium dark:text-white">Next.js</div>
+          <div class="w-full bg-gray-200 rounded-full mb-4 dark:bg-gray-700">
+            <div
+              class="bg-red-700 text-xs font-medium text-center p-0.5 leading-none rounded-full progress-animate"
+              style="width: 90%"
+            >
+              90%
+            </div>
+          </div>
+          <div class="mb-1 text-base font-medium dark:text-white">Node.js</div>
+          <div class="w-full bg-gray-200 rounded-full mb-4 dark:bg-gray-700">
+            <div
+              class="bg-red-700 text-xs font-medium text-center p-0.5 leading-none rounded-full progress-animate"
+              style="width: 89%"
+            >
+              89%
+            </div>
+          </div>
+          <div class="mb-1 text-base font-medium dark:text-white">
+            MongoDB / SQL
+          </div>
+          <div class="w-full bg-gray-200 rounded-full mb-4 dark:bg-gray-700">
+            <div
+              class="bg-red-700 text-xs font-medium text-center p-0.5 leading-none rounded-full progress-animate"
+              style="width: 89%"
+            >
+              87%
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section
+      class="bg-no-repeat bg-cover bg-bottom bg-[url(/assets/certifications-img.webp)]"
+    >
+      <div id="certifications" class="text-white backdrop-blur-sm py-20">
+        <h1 class="text-4xl font-bold pb-20 text-center">Certifications</h1>
+        <div class="certificate-cards-container">
+          <div class="certificate-tiles bg-red-700">
+            <img
+              src="/assets/data-analytics-icon.png"
+              alt="data-analytics-icon"
+            />
+            <h2 class="text-3xl font-bold">Data Analytics</h2>
+            <p>
+              Earned a certification in Data Analytics, focusing on extracting,
+              analyzing, and interpreting complex data. Gained hands-on
+              experience using Python, SQL, Excel, and Power BI to solve
+              real-world business problems. Developed skills in creating
+              visualizations and delivering insights to support data-driven
+              decisions.
+            </p>
+            <button class="button">Read More</button>
+          </div>
+          <div class="certificate-tiles bg-red-700">
+            <img src="/assets/coding-icon.png" alt="coding-icon" />
+            <h2 class="text-3xl font-bold">Web Development</h2>
+            <p>
+              Completed a web development program, focusing on building
+              responsive and interactive websites. Proficient in front-end
+              technologies like HTML, CSS, and JavaScript, as well as back-end
+              frameworks. Gained hands-on experience in developing and deploying
+              full-stack web applications using modern tools and best practices.
+            </p>
+            <button class="button">Read More</button>
+          </div>
+          <div class="certificate-tiles bg-red-700">
+            <img src="/assets/js-icon.png" alt="js-icon" />
+            <h2 class="text-3xl font-bold">Full Stack Development</h2>
+            <p>
+              Completed a Full Stack Development program covering both front-end
+              and back-end technologies. Built responsive web applications using
+              MERN stack. Gained hands-on experience in RESTful APIs, database
+              integration, and deployment practices. Focused on end-to-end
+              project development and real-world application workflows.
+            </p>
+            <button class="button">Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects  -->
+    <section
+      class="bg-no-repeat bg-cover bg-top bg-[url(/assets/project-img.webp)]"
+    >
+      <div id="projects" class="text-white backdrop-blur-sm py-20">
+        <h1 class="text-4xl font-bold pb-20 text-center">Projects</h1>
+        <div class="project-cards-container">
+          <div class="projects-cards">
+            <img src="/assets/ecommerce-img.avif" alt="E-commerce" />
+            <div class="project-img-overlay">
+              <h2 class="text-3xl font-bold">QKart</h2>
+              <p>
+                An E-commerce application offering a variety of products for
+                customers to choose from.
+              </p>
+            </div>
+          </div>
+          <div class="projects-cards">
+            <img src="/assets/video-streaming-img.jpg" alt="Video Streaming" />
+            <div class="project-img-overlay">
+              <h2 class="text-3xl font-bold">XFlix</h2>
+              <p>
+                A video sharing platform which hosts videos for the world to
+                watch
+              </p>
+            </div>
+          </div>
+          <div class="projects-cards">
+            <img src="/assets/news-feed-img.webp" alt="News Feed" />
+            <div class="project-img-overlay">
+              <h2 class="text-3xl font-bold">XBoard</h2>
+              <p>
+                A News Feed website that will feature the latest news for select
+                topics, from Flipboard.
+              </p>
+            </div>
+          </div>
+          <div class="projects-cards">
+            <img src="/assets/travel-booking-img.webp" alt="Travel Booking" />
+            <div class="project-img-overlay">
+              <h2 class="text-3xl font-bold">QTrip</h2>
+              <p>
+                A dynamic travel website that can be used to browse adventures
+                and make reservations.
+              </p>
+            </div>
+          </div>
+          <div class="projects-cards">
+            <img src="/assets/admin-panel-img.webp" alt="Admin Panel" />
+            <div class="project-img-overlay">
+              <h2 class="text-3xl font-bold">Admin Panel</h2>
+              <p>
+                An admin panel that supports user updates, single or bulk
+                deletions, and includes search and pagination features.
+              </p>
+            </div>
+          </div>
+          <div class="projects-cards">
+            <img src="/assets/portfolio-img.jpg" alt="Portfolio" />
+            <div class="project-img-overlay">
+              <h2 class="text-3xl font-bold">Portfolio Site</h2>
+              <p>
+                A personalized portfolio website designed to showcase my
+                profile, technical skills, and projects.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact me -->
+    <section
+      class="bg-no-repeat bg-cover bg-bottom bg-[url(/assets/tech-valley.webp)]"
+    >
+      <div id="contact" class="text-white py-20 backdrop-blur-sm">
+        <h1 class="text-4xl font-bold text-center pb-20">
+          Contact <span class="text-red-700">Me</span>
+        </h1>
+        <div class="flex justify-center">
+          <form class="form">
+            <div class="flex flex-col gap-4 sm:flex-row">
+              <input class="input" type="text" placeholder="First Name" />
+              <input class="input" type="text" placeholder="Last Name" />
+            </div>
+            <div class="flex flex-col gap-4 sm:flex-row">
+              <input class="input" type="email" placeholder="E-mail Address" />
+              <input class="input" type="number" placeholder="Mobile Number" />
+            </div>
+
+            <textarea
+              class="input resize-none w-full"
+              rows="8"
+              placeholder="Write Your Query"
+            ></textarea>
+
+            <button class="button-two">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="flex justify-center bg-black">
+      <div
+        class="w-4xl flex justify-center items-center rounded-t-2xl h-18 gap-2 bg-red-700"
+      >
+        <div class="group">
+          <!-- Wrapper to control width animation -->
+          <div
+            class="flex items-center rounded-full w-10 group-hover:w-48"
+            style="
+              background: linear-gradient(135deg, #25d366, #128c7e, #075e54);
+            "
+          >
+            <!-- Icon -->
+            <img class="footer-img" src="/assets/whatsapp.svg" alt="whatsapp" />
+            <!-- Info (hidden by overflow, revealed on width expand) -->
+            <div
+              class="whitespace-nowrap overflow-hidden opacity-0 group-hover:opacity-100"
+            >
+              <span class="ml-2 text-white">+91-8527360543</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="group">
+          <!-- Wrapper to control width animation -->
+          <div
+            class="bg-white flex items-center rounded-full w-10 group-hover:w-64"
+            style="
+              background: linear-gradient(
+                135deg,
+                #4285f4,
+                #ea4335,
+                #fbbc05,
+                #34a853
+              );
+            "
+          >
+            <!-- Icon -->
+            <img class="footer-img" src="/assets/gmail.svg" alt="whatsapp" />
+            <!-- Info (hidden by overflow, revealed on width expand) -->
+            <div
+              class="whitespace-nowrap overflow-hidden opacity-0 group-hover:opacity-100"
+            >
+              <span class="ml-2 text-white">sajalb210@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

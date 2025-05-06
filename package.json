@@ -1,0 +1,8 @@
+{
+  "name": "rambo-portfolio",
+	"author": "Sajal Bansal",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "tailwindcss": "^4.1.4"
+  }
+}
