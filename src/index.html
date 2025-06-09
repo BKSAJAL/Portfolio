@@ -3,25 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="/assets/med-logo.png" />
-    <link href="./output.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="./assets/med-logo.png" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="./input.css" rel="stylesheet" />
     <title>Sajal Bansal</title>
   </head>
   <body>
     <header
       class="bg-black sm:bg-transparent flex flex-col gap-4 py-4 justify-around items-center sticky t-0 sm:fixed w-full z-10 backdrop-blur-3xl lg:flex-row lg:gap-0"
     >
-      <img class="hover:scale-120" src="/assets/med-logo.png" width="50px" />
+      <img class="hover:scale-120" src="./assets/med-logo.png" width="50px" />
       <div class="flex">
         <img
           class="bg-red-700 rounded-l-lg p-1"
-          src="/assets/moon.svg"
+          src="./assets/moon.svg"
           alt="moon-img"
           width="35px"
         />
         <img
           class="bg-white rounded-r-lg p-1"
-          src="/assets/sun.svg"
+          src="./assets/sun.svg"
           alt="sun-img"
           width="35px"
         />
@@ -42,7 +43,7 @@
 
     <!-- Home  -->
     <section
-      class="bg-no-repeat bg-cover bg-bottom bg-[url(/assets/coding-img.png)]"
+      class="bg-no-repeat bg-cover bg-bottom bg-[url(./assets/coding-img.png)]"
     >
       <div
         class="flex flex-col-reverse gap-10 justify-center items-center h-screen backdrop-blur-sm md:flex-row md:justify-around"
@@ -58,7 +59,7 @@
             >
               <img
                 class="bg-white rounded-full"
-                src="../assets/linkedin-icon.svg"
+                src="./assets/linkedin-icon.svg"
                 alt="linekdin_icon"
                 width="30px"
               />
@@ -67,7 +68,7 @@
               class="rounded-full p-1 bg-white hover:cursor-pointer hover:animate-spin"
             >
               <img
-                src="../assets/facebook-icon.svg"
+                src="./assets/facebook-icon.svg"
                 alt="facebook_icon"
                 width="30px"
               />
@@ -76,7 +77,7 @@
               class="rounded-full p-1 bg-white hover:cursor-pointer hover:animate-spin"
             >
               <img
-                src="../assets/instagram-icon.svg"
+                src="./assets/instagram-icon.svg"
                 alt="insta_icon"
                 width="30px"
               />
@@ -84,7 +85,7 @@
             <span
               class="rounded-full p-1 bg-white hover:cursor-pointer hover:animate-spin"
             >
-              <img src="../assets/x-icon.svg" alt="x_icon" width="30px" />
+              <img src="./assets/x-icon.svg" alt="x_icon" width="30px" />
             </span>
           </div>
           <button class="button">Download CV</button>
@@ -92,7 +93,7 @@
         <div>
           <img
             class="rounded-4xl floating-top-img z-0"
-            src="/assets/self.jpeg"
+            src="./assets/self.jpeg"
             alt="self-img"
             width="250px"
           />
@@ -102,7 +103,7 @@
 
     <!-- About Me -->
     <section
-      class="bg-no-repeat bg-cover bg-top bg-[url(/assets/multiscreen-img.avif)]"
+      class="bg-no-repeat bg-cover bg-top bg-[url(./assets/multiscreen-img.avif)]"
     >
       <div
         id="about"
@@ -110,7 +111,7 @@
       >
         <img
           class="rounded-4xl floating-top-img"
-          src="../assets/self-2.jpg"
+          src="./assets/self-2.jpg"
           width="300px"
         />
         <div class="lg:w-4xl w-xs sm:w-sm">
@@ -151,7 +152,7 @@
 
     <!-- Skills -->
     <section
-      class="bg-no-repeat bg-cover bg-center bg-[url(/assets/technologies-img.webp)]"
+      class="bg-no-repeat bg-cover bg-center bg-[url(./assets/technologies-img.webp)]"
     >
       <div
         id="skills"
@@ -241,14 +242,14 @@
 
     <!-- Certifications -->
     <section
-      class="bg-no-repeat bg-cover bg-bottom bg-[url(/assets/certifications-img.webp)]"
+      class="bg-no-repeat bg-cover bg-bottom bg-[url(./assets/certifications-img.webp)]"
     >
       <div id="certifications" class="text-white backdrop-blur-sm py-20">
         <h1 class="text-4xl font-bold pb-20 text-center">Certifications</h1>
         <div class="certificate-cards-container">
           <div class="certificate-tiles bg-red-700">
             <img
-              src="/assets/data-analytics-icon.png"
+              src="./assets/data-analytics-icon.png"
               alt="data-analytics-icon"
             />
             <h2 class="text-3xl font-bold">Data Analytics</h2>
@@ -263,7 +264,7 @@
             <button class="button">Read More</button>
           </div>
           <div class="certificate-tiles bg-red-700">
-            <img src="/assets/coding-icon.png" alt="coding-icon" />
+            <img src="./assets/coding-icon.png" alt="coding-icon" />
             <h2 class="text-3xl font-bold">Web Development</h2>
             <p>
               Completed a web development program, focusing on building
@@ -275,7 +276,7 @@
             <button class="button">Read More</button>
           </div>
           <div class="certificate-tiles bg-red-700">
-            <img src="/assets/js-icon.png" alt="js-icon" />
+            <img src="./assets/js-icon.png" alt="js-icon" />
             <h2 class="text-3xl font-bold">Full Stack Development</h2>
             <p>
               Completed a Full Stack Development program covering both front-end
@@ -292,13 +293,13 @@
 
     <!-- Projects  -->
     <section
-      class="bg-no-repeat bg-cover bg-top bg-[url(/assets/project-img.webp)]"
+      class="bg-no-repeat bg-cover bg-top bg-[url(./assets/project-img.webp)]"
     >
       <div id="projects" class="text-white backdrop-blur-sm py-20">
         <h1 class="text-4xl font-bold pb-20 text-center">Projects</h1>
         <div class="project-cards-container">
           <div class="projects-cards">
-            <img src="/assets/ecommerce-img.avif" alt="E-commerce" />
+            <img src="./assets/ecommerce-img.avif" alt="E-commerce" />
             <div class="project-img-overlay">
               <h2 class="text-3xl font-bold">QKart</h2>
               <p>
@@ -308,7 +309,7 @@
             </div>
           </div>
           <div class="projects-cards">
-            <img src="/assets/video-streaming-img.jpg" alt="Video Streaming" />
+            <img src="./assets/video-streaming-img.jpg" alt="Video Streaming" />
             <div class="project-img-overlay">
               <h2 class="text-3xl font-bold">XFlix</h2>
               <p>
@@ -318,7 +319,7 @@
             </div>
           </div>
           <div class="projects-cards">
-            <img src="/assets/news-feed-img.webp" alt="News Feed" />
+            <img src="./assets/news-feed-img.webp" alt="News Feed" />
             <div class="project-img-overlay">
               <h2 class="text-3xl font-bold">XBoard</h2>
               <p>
@@ -328,7 +329,7 @@
             </div>
           </div>
           <div class="projects-cards">
-            <img src="/assets/travel-booking-img.webp" alt="Travel Booking" />
+            <img src="./assets/travel-booking-img.webp" alt="Travel Booking" />
             <div class="project-img-overlay">
               <h2 class="text-3xl font-bold">QTrip</h2>
               <p>
@@ -338,7 +339,7 @@
             </div>
           </div>
           <div class="projects-cards">
-            <img src="/assets/admin-panel-img.webp" alt="Admin Panel" />
+            <img src="./assets/admin-panel-img.webp" alt="Admin Panel" />
             <div class="project-img-overlay">
               <h2 class="text-3xl font-bold">Admin Panel</h2>
               <p>
@@ -348,7 +349,7 @@
             </div>
           </div>
           <div class="projects-cards">
-            <img src="/assets/portfolio-img.jpg" alt="Portfolio" />
+            <img src="./assets/portfolio-img.jpg" alt="Portfolio" />
             <div class="project-img-overlay">
               <h2 class="text-3xl font-bold">Portfolio Site</h2>
               <p>
@@ -363,7 +364,7 @@
 
     <!-- contact me -->
     <section
-      class="bg-no-repeat bg-cover bg-bottom bg-[url(/assets/tech-valley.webp)]"
+      class="bg-no-repeat bg-cover bg-bottom bg-[url(./assets/tech-valley.webp)]"
     >
       <div id="contact" class="text-white py-20 backdrop-blur-sm">
         <h1 class="text-4xl font-bold text-center pb-20">
@@ -406,7 +407,7 @@
             "
           >
             <!-- Icon -->
-            <img class="footer-img" src="/assets/whatsapp.svg" alt="whatsapp" />
+            <img class="footer-img" src="./assets/whatsapp.svg" alt="whatsapp" />
             <!-- Info (hidden by overflow, revealed on width expand) -->
             <div
               class="whitespace-nowrap overflow-hidden opacity-0 group-hover:opacity-100"
@@ -431,7 +432,7 @@
             "
           >
             <!-- Icon -->
-            <img class="footer-img" src="/assets/gmail.svg" alt="whatsapp" />
+            <img class="footer-img" src="./assets/gmail.svg" alt="whatsapp" />
             <!-- Info (hidden by overflow, revealed on width expand) -->
             <div
               class="whitespace-nowrap overflow-hidden opacity-0 group-hover:opacity-100"
